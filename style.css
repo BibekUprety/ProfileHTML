@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+   
+    /* Main Styling */
+html,body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+  /*background-image: url("photo-1561652722-ba28a38150af.jfif");
+  */height: 100px;
+ 
+}
+#wh{
+  background-image: url("photo-1561652722-ba28a38150af.jfif");
+  background-size: cover;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+p {
+  margin: 10px 0;
+}
+h1, h2, h3 {
+  padding-bottom: 5px;
+}
+/* Utility Classes */
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 10px;
+}
+/* Navbar */
+#navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#navbar a {
+  color: #fff;
+}
+
+#navbar h1 {
+  float: left;
+  padding-top: 10px;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 15px;
+  text-align: center;
+}
+
+#navbar ul li a:hover {
+  background: #444;
+  color: #f7c08a;
+}
+/*for image*/
+img{
+  border-radius: 30%;
+  float: left;
+  max-height: 100%;
+  
+  
+}
+.center {
+  display: block;
+  margin-left: 150px;
+  margin-right: auto;
+  
+}
+/*For showcase*/
+#showcase .showcase-content .bio{
+  color: #fff;
+  text-align: center;
+  padding-top: 100px;
+  padding-right: 350px;}
+
+/*for about*/
+#nothing .text{
+  color: white;
+  text-align: center;
+  
+}
+
+/*for skills
+.containers {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}*/
+
+/*for abilities*/
+#abilities{
+  text-align: center;
+}
+
+#abi{
+  display: inline-block;
+  font-size: 30px;
+  color: #fff;
+  background: #333;
+  padding: 13px 20px;
+  border: none;
+  cursor: pointer;
+  }
+  #abi:hover{
+    opacity: 0.7;
+  }
+
+
+
+/* for icons*/
+.fa {
+  padding: 10px;
+  font-size: 50px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 30%;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+/*for about*/
+#ab{
+  background-image: url("photi.jfif");
+  text-align: center;
+  height: 730%;
+  background-size: cover;
+}
+#touch{
+  color: white;
+}
+#want{
+  color: white;
+}
+/*For project*/
+#proj{
+  background-image: url("photi.jfif");
+  background-size: cover;
+  height: 730%;
+}
+.colsp4{
+	flex:0 0 25%;
+	max-width:25%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.w-100{
+	width:100%;
+
+}
+.row-box{
+	display:flex;
+	position: relative;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+.relative{
+	position: relative;
+}
+.relative h3{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: inline-block;
+	align-self: center;
+	text-align: center;
+	justify-content: baseline;
+	background: rgba(0,0,0,0.36);
+	color: red;
+	margin: 0;
+	padding: 0;
+	align-content: center;
+	display: none;
+
+}
+.relative h3 span{
+	margin-top: 30%;
+}
+.relative:hover h3{
+	display:flex;
+}
+
+
+ /*
+#atm #calc #fame #pig{
+ padding-left: 100vh;
+ padding-right: 100vh;
+}/*
+span:hover + .atm1 {
+  display: block;
+}
+div{
+  background-color: black;
+  padding: 20px;
+  display: none;
+}*/
+
+/*For about*/
+#abt{
+background-image: url("photi.jfif");
+height: 730%;
+background-size: cover;
+}
+.cont {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
